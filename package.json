@@ -1,0 +1,26 @@
+{
+  "name": "jenkins_node_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alihuber/node_jenkins_test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alihuber/node_jenkins_test/issues"
+  },
+  "homepage": "https://github.com/alihuber/node_jenkins_test#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "mocha": "2.4.5",
+    "zombie": "4.0.8"
+  }
+}

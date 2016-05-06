@@ -17,8 +17,6 @@ RUN apt-get -y install nodejs
 RUN adduser --quiet jenkins
 RUN echo "jenkins:jenkins" | chpasswd
 
-ADD . /code
-WORKDIR /code
 
 EXPOSE 22
 

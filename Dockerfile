@@ -3,8 +3,8 @@ FROM ubuntu:trusty
 RUN apt-get update
 RUN apt-get -y upgrade
 
-# Install SSH server
-RUN apt-get install -y openssh-server curl
+# Install SSH server and tools
+RUN apt-get install -y openssh-server curl git
 RUN sed -i 's|session    required     pam_loginuid.so|session    optional     pam_loginuid.so|g' /etc/pam.d/sshd
 RUN mkdir -p /var/run/sshd
 
